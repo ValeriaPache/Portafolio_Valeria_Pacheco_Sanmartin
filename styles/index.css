@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerHeader{
+    width: 100%;
+    height: 360px;
+    background-color: #005f91;
+}
+.containerHeader > .subcontainerHeader{
+    width: 100%;
+    height: 350px;
+    *background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.subcontainerHeader > .container1{
+    width: 45%;
+    height: 300px;
+    *background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.subcontainerHeader > .container2{
+    width: 45%;
+    height: 300px;
+    *background-color:gold;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 > .containerImg{
+    width: 100%;
+    height: 12rem;
+    *background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerImg > .imgYo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+}
+.container1 > .containerName{
+    width: 95%;
+    height: 5rem;
+    *background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameHeader{
+    font-size: 1.35rem;
+    color: white;
+}
+.container2 > .containerTittleHeader{
+    width: 100%;
+    height: 2rem;
+    *background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleHeader > .tittleHeader{
+    color: #a18879;
+}
+.container2 > .containerParagraphHeader{
+    width: 100%;
+    height: 15rem;
+    *background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
+.containerParagraphHeader > .paragraphHeader{
+    color: white;
+}
+
+
