@@ -85,6 +85,9 @@
 
 /*                            container del body       */
 
+
+/*                            container proyects      */
+
 .containerBody{
     width: 100%;
     height: 2700px;
@@ -92,7 +95,7 @@
 }
 .containerBody > .containerProyectos{
     width: 100%;
-    height: 360px;
+    height: 960px;
     *background-color: #a18879;
 }
 .containerProyectos > .subcontainerProyectos{
@@ -220,3 +223,132 @@ hr{
     font-size: 0.9rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+/*                            container references      */
+
+
+.containerBody > .containerReferences{
+    width: 100%;
+    height: 360px;
+    *background-color: #a18879;
+}
+.containerReferences > .subcontainerReferences{
+    width: 100%;
+    height: 960px;
+    *background-color: cadetblue;
+}
+.subcontainerReferences > .containertittleReferences{
+    width: 99%;
+    height: 8rem;
+    *background-color: chocolate;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.containertittleReferences > .logoImgSenaReferences{
+    width: 30%;
+    height: 6rem;
+    *background-color: #a18879;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logoImgSenaReferences > .imgSenaReferences{
+    width: 5rem;
+    height: 5rem;
+    background-color: #c1ff95;
+    border-radius: 50%;
+}
+.containertittleReferences > .containerTittleReferences{
+    width: 60%;
+    height: 6rem;
+    *background-color: #a18879;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerTittleReferences > .tittleReferences{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5c5b5d;   
+}
+.subcontainerReferences > .containerLineReferences{
+    width: 99%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerReferences > .containerCardsReferences{
+    width: 99%;
+    height: 900px;
+    *background-color: #cc1495;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.containerCardsReferences > .subContainerCardsReferences{
+    width: 99%;
+    height: 900px;
+    *background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.subContainerCardsReferences > .cardReferences{
+    width: 70%;
+    height: 15rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid black;
+}
+.cardReferences > .containerName{
+    width: 65%;
+    height: 2.5rem;
+    *background-color: #39a900;
+    display: flex;
+    align-items: center;
+}
+.containerName > .nameCardReferences{
+    font-size: 20px;
+}
+.cardReferences > .containerCargo{
+    width: 65%;
+    height: 2.5rem;
+    *background-color: #39a900;
+    display: flex;
+    align-items: center;
+}
+.containerCargo > .cargoCardReferences{
+    font-size: 20px;
+}
+.cardReferences > .containerTelefono{
+    width: 65%;
+    height: 2.5rem;
+    *background-color: #39a900;
+    display: flex;
+    align-items: center;
+}
+.containerTelefono > .telefonoCardReferences{
+    font-size: 20px;
+}
+.cardReferences > .containerCorreo{
+    width: 65%;
+    height: 2.5rem;
+    *background-color: #39a900;
+    display: flex;
+    align-items: center;
+}
+.containerCorreo > .correoCardReferences{
+    font-size: 20px;
+}
+
+/*                            container Experiences      */
