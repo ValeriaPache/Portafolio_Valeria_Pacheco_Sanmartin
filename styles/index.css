@@ -28,7 +28,6 @@
 .subcontainerHeader > .container2{
     width: 45%;
     height: 300px;
-    *background-color:gold;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -38,7 +37,6 @@
 .container1 > .containerImg{
     width: 100%;
     height: 12rem;
-    *background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +49,6 @@
 .container1 > .containerName{
     width: 95%;
     height: 5rem;
-    *background-color: pink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +60,6 @@
 .container2 > .containerTittleHeader{
     width: 100%;
     height: 2rem;
-    *background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +70,6 @@
 .container2 > .containerParagraphHeader{
     width: 100%;
     height: 15rem;
-    *background-color: chartreuse;
     display: flex;
     justify-content: center;
 }
@@ -91,22 +86,18 @@
 .containerBody{
     width: 100%;
     height: 3310px;
-    *background-color: burlywood;
 }
 .containerBody > .containerProyectos{
     width: 100%;
     height: 960px;
-    *background-color: #a18879;
 }
 .containerProyectos > .subcontainerProyectos{
     width: 100%;
     height: 960px;
-    *background-color: cadetblue;
 }
 .subcontainerProyectos > .containertittle{
     width: 99%;
     height: 8rem;
-    *background-color: chocolate;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -115,7 +106,6 @@
 .containertittle > .logoImgSena{
     width: 30%;
     height: 6rem;
-    *background-color: #a18879;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -129,7 +119,6 @@
 .containertittle > .containerTittleProyect{
     width: 60%;
     height: 6rem;
-    *background-color: #a18879;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -155,7 +144,6 @@ hr{
 .subcontainerProyectos > .containerCardsProyectos{
     width: 99%;
     height: 800px;
-    *background-color: #cc1495;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -186,12 +174,10 @@ hr{
 .cardsProyectos1 > .contInformation1{
     width: 50%;
     height: 8rem;
-    *background-color: brown;
 }
 .contInformation1 > .contTittlecard1{
     width: 100%;
     height: 2rem;
-    *background-color: #a99b00;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -204,7 +190,6 @@ hr{
 .contInformation1 > .contparagraphcard1{
     width: 100%;
     height: 4rem;
-    *background-color: #c1ff95;
 }
 .contparagraphcard1 > .descriptionproye{
     color: white;
@@ -214,7 +199,6 @@ hr{
 .contInformation1 > .contparagraphcard11{
     width: 100%;
     height: 2rem;
-    *background-color: #602ee7;
     display: flex;
     align-items: center;
 }
@@ -232,17 +216,14 @@ hr{
 .containerBody > .containerReferences{
     width: 100%;
     height: 360px;
-    *background-color: #a18879;
 }
 .containerReferences > .subcontainerReferences{
     width: 100%;
     height: 960px;
-    *background-color: cadetblue;
 }
 .subcontainerReferences > .containertittleReferences{
     width: 99%;
     height: 8rem;
-    *background-color: chocolate;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -251,7 +232,6 @@ hr{
 .containertittleReferences > .logoImgSenaReferences{
     width: 30%;
     height: 6rem;
-    *background-color: #a18879;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -265,7 +245,6 @@ hr{
 .containertittleReferences > .containerTittleReferences{
     width: 60%;
     height: 6rem;
-    *background-color: #a18879;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -285,7 +264,6 @@ hr{
 .subcontainerReferences > .containerCardsReferences{
     width: 99%;
     height: 900px;
-    *background-color: #cc1495;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -294,7 +272,6 @@ hr{
 .containerCardsReferences > .subContainerCardsReferences{
     width: 99%;
     height: 900px;
-    *background-color: blue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -313,7 +290,6 @@ hr{
 .cardReferences > .containerName{
     width: 65%;
     height: 2.5rem;
-    *background-color: #39a900;
     display: flex;
     align-items: center;
 }
@@ -323,7 +299,6 @@ hr{
 .cardReferences > .containerCargo{
     width: 65%;
     height: 2.5rem;
-    *background-color: #39a900;
     display: flex;
     align-items: center;
 }
@@ -333,7 +308,6 @@ hr{
 .cardReferences > .containerTelefono{
     width: 65%;
     height: 2.5rem;
-    *background-color: #39a900;
     display: flex;
     align-items: center;
 }
@@ -343,7 +317,6 @@ hr{
 .cardReferences > .containerCorreo{
     width: 65%;
     height: 2.5rem;
-    *background-color: #39a900;
     display: flex;
     align-items: center;
 }
@@ -356,17 +329,14 @@ hr{
 .containerBody > .containerExperience{
     width: 100%;
     height: 1280px;
-    *background-color: rgb(91, 91, 170);
 }
 .containerExperience > .subcontainerExperience{
     width: 100%;
     height: 1270px;
-    *background-color: cadetblue;
 }
 .subcontainerExperience > .containertittleExperience{
     width: 99%;
     height: 8rem;
-    *background-color: chocolate;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -375,7 +345,6 @@ hr{
 .containertittleExperience > .logoImgSenaExperience{
     width: 30%;
     height: 6rem;
-    *background-color: #a18879;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -401,7 +370,6 @@ hr{
 .subcontainerExperience > .subContainerCardsExperience{
     width: 99%;
     height: 1100px;
-    *background-color: #cc1495;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -410,7 +378,6 @@ hr{
 .subContainerCardsExperience > .cardExperience{
     width: 80%;
     height: 250px;
-    *background-color: blue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -419,7 +386,6 @@ hr{
 .cardExperience > .iconExperience{
     width: 70%;
     height: 50%;
-    *background-color: yellow;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -434,7 +400,6 @@ hr{
 .cardExperience > .barraExperience{
     width: 70%;
     height: 15%;
-    *background-color: goldenrod;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -447,7 +412,6 @@ hr{
 .cardExperience > .nameIconExperience{
     width: 70%;
     height: 15%;
-    *background-color: palegoldenrod;
     display: flex;
     justify-content: space-around;
     align-items: center;
