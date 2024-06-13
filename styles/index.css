@@ -413,7 +413,38 @@ hr{
     align-items: center;
     flex-direction: column;
 }
-
+@media screen and (min-width: 393px) and (max-width: 852px) {
+  /*                             conainer header        */
+    .containerHeader{
+        width: 100%;
+        height: 390px;
+        background-color: #005f91;
+    }
+    .container1 > .containerName{
+        width: 95%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1040px) {
+    /*                             conainer header        */
+      .containerHeader{
+          width: 100%;
+          height: 350px;
+          background-color: #005f91;
+      }
+      .container1 > .containerName{
+        width: 95%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  }
 @media screen and (min-width: 820px) and (max-width: 1180px) { 
     
     /*                            conainer header        */
@@ -509,6 +540,117 @@ hr{
 
 
 @media screen and (max-width: 1555px) and (min-width: 738px) { 
+    
+    /*                            container header        */
+    .containerHeader{
+        width: 100%;
+        height: 320px;
+        background-color: #005f91;
+    }
+
+    .container2 > .containerTittleHeader{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerTittleHeader > .tittleHeader{
+        color: #a18879;
+    }
+    .container2 > .containerParagraphHeader{
+        width: 100%;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+    }
+        /*                            container del body       */
+        .containerBody{
+            width: 100%;
+            height: 1770px;
+        }
+        /*                            conainer proyects        */
+        .containerBody > .containerProyectos{
+            width: 100%;
+            height: 550px;
+        }
+        .subcontainerProyectos > .containerCardsProyectos{
+            width: 99%;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .containerCardsProyectos > .cardsProyectos1{
+            width: 45%;
+            height: 10rem;
+            background-color: #39a900;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    /*                            conainer references        */
+       .subcontainerReferences > .containerCardsReferences{
+            width: 99%;
+            height: 310px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .containerCardsReferences > .subContainerCardsReferences{
+            width: 99%;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subContainerCardsReferences > .cardReferences{
+            width: 30%;
+            height: 15rem;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            border: 10px solid black;
+        }
+    /*                            conainer experience       */
+        .containerBody > .containerExperience{
+           width: 100%;
+           height: 730px;
+        }
+        .containerExperience > .subcontainerExperience{
+            width: 100%;
+            height: 760px;
+        }
+    
+        .subcontainerExperience > .subContainerCardsExperience{
+            width: 99%;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subContainerCardsExperience > .cardExperience{
+            width: 40%;
+            height: 250px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+}
+
+
+@media screen and (max-width: 1559px) and (min-width: 975px) { 
     
     /*                            container header        */
     .containerHeader{
