@@ -829,3 +829,187 @@ hr{
             height: 3rem;
         }
 }
+
+
+
+
+
+
+@media screen and (max-width: 1920px) and (min-width: 180px) { 
+    
+    /*                            container header        */
+    body{
+        width: 100%;
+        display: flex;
+        background-color: antiquewhite;
+    }
+    header{
+        width: 40%;
+    }
+    .containerHeader{
+        background-color: #39a900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        width: 500px; /* Ancho del contenedor fijo */
+        height: 645px; /* Altura completa de la ventana */
+    }
+    .containerHeader > .subcontainerHeader{
+        width: 100%;
+        height: 640px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .subcontainerHeader > .container1{
+        width: 85%;
+        height: 370px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subcontainerHeader > .container2{
+        width: 85%;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container1 > .containerImg{
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerImg > .imgYo{
+        width: 11rem;
+        height: 11rem;
+        border-radius: 10%;
+    }
+    .container1 > .containerName{
+        width: 95%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nameHeader{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .container2 > .containerTittleHeader{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerTittleHeader > .tittleHeader{
+        color: #012801;
+        font-size: 1.5rem;
+    }
+    .container2 > .containerParagraphHeader{
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+    }
+    .containerParagraphHeader > .paragraphHeader{
+        color: white;
+        font-size: 1.3rem;
+    }
+        /*                            container del body       */
+        .containerBody{
+            width: 65%;
+            height: 1770px;
+            background-color: antiquewhite;
+        }
+        /*                            conainer proyects        */
+        .containerBody > .containerProyectos{
+            width: 100%;
+            height: 545px;
+        }
+        .subcontainerProyectos > .containerCardsProyectos{
+            width: 99%;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .containerCardsProyectos > .cardsProyectos1{
+            width: 45%;
+            height: 10rem;
+            background-color: #39a900;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    /*                            conainer references        */
+       .subcontainerReferences > .containerCardsReferences{
+            width: 99%;
+            height: 310px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .containerCardsReferences > .subContainerCardsReferences{
+            width: 99%;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subContainerCardsReferences > .cardReferences{
+            width: 30%;
+            height: 15rem;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            border: 10px solid black;
+        }
+    /*                            conainer experience       */
+        .containerBody > .containerExperience{
+           width: 100%;
+           height: 730px;
+        }
+        .containerExperience > .subcontainerExperience{
+            width: 100%;
+            height: 760px;
+        }
+    
+        .subcontainerExperience > .subContainerCardsExperience{
+            width: 99%;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subContainerCardsExperience > .cardExperience{
+            width: 40%;
+            height: 250px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .barraExperience > .barraExperienceContainer{
+            width: 60%;
+            height: 3rem;
+        }
+}
