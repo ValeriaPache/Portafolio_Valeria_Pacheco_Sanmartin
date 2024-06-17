@@ -854,7 +854,7 @@ hr{
         flex-direction: column;
         position: fixed;
         width: 500px; /* Ancho del contenedor fijo */
-        height: 845px; /* Altura completa de la ventana */
+        height: 1000px; /* Altura completa de la ventana */
     }
     .containerHeader > .subcontainerHeader{
         width: 100%;
