@@ -823,4 +823,8 @@ hr{
             align-items: center;
             flex-direction: column;
         }
+        .barraExperience > .barraExperienceContainer{
+            width: 60%;
+            height: 3rem;
+        }
 }
