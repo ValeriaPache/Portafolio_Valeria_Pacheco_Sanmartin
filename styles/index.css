@@ -167,6 +167,7 @@ hr{
 .contImgCard1 > .imgproyect1{
     width: 6rem;
     height: 6rem;
+    border-radius: 10rem;
 }
 .cardsProyectos1 > .contInformation1{
     width: 50%;
@@ -391,7 +392,7 @@ hr{
     width: 7rem;
     height: 7rem;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .cardExperience > .barraExperience{
     width: 70%;
@@ -402,7 +403,7 @@ hr{
     flex-direction: column;
 }
 .barraExperience > .barraExperienceContainer{
-    width: 100%;
+    width: 60%;
     height: 3rem;
 }
 .cardExperience > .nameIconExperience{
