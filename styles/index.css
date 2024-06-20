@@ -449,7 +449,7 @@ hr{
     body{
         width: 100%;
         display: flex;
-        background-color: antiquewhite;
+        background-color: white;
     }
     header{
         width: 40%;
@@ -629,7 +629,7 @@ hr{
     body{
         width: 100%;
         display: flex;
-        background-color: antiquewhite;
+        background-color: white;
     }
     header{
         width: 40%;
@@ -808,10 +808,10 @@ hr{
     body{
         width: 100%;
         display: flex;
-        background-color: antiquewhite;
+        background-color: white;
     }
     header{
-        width: 40%;
+        width: 30%;
     }
     .containerHeader{
         background-color: #39a900;
