@@ -293,7 +293,7 @@ hr{
     align-items: center;
 }
 .containerName > .nameCardReferences{
-    font-size: 20px;
+    font-size: 16.5px;
 }
 .cardReferences > .containerCargo{
     width: 90%;
@@ -302,7 +302,7 @@ hr{
     align-items: center;
 }
 .containerCargo > .cargoCardReferences{
-    font-size: 20px;
+    font-size: 16.5px;
 }
 .cardReferences > .containerTelefono{
     width: 90%;
@@ -311,7 +311,7 @@ hr{
     align-items: center;
 }
 .containerTelefono > .telefonoCardReferences{
-    font-size: 20px;
+    font-size: 16.5px;
 }
 .cardReferences > .containerCorreo{
     width: 90%;
@@ -320,7 +320,7 @@ hr{
     align-items: center;
 }
 .containerCorreo > .correoCardReferences{
-    font-size: 18px;
+    font-size: 16.5px;
 }
 
 /*                            container Experiences      */
