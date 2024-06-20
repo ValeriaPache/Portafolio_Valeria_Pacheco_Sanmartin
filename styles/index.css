@@ -811,7 +811,7 @@ hr{
         background-color: white;
     }
     header{
-        width: 30%;
+        width: 40%;
     }
     .containerHeader{
         background-color: #39a900;
@@ -820,7 +820,7 @@ hr{
         align-items: center;
         flex-direction: column;
         position: fixed;
-        width: 700px; /* Ancho del contenedor fijo */
+        width: 1000px; /* Ancho del contenedor fijo */
         height: 980px; /* Altura completa de la ventana */
     }
     .containerHeader > .subcontainerHeader{
